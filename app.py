@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# YOUR DETAILS
+
 FULL_NAME = "eakshitha"          # lowercase full name
 DOB = "16062005"                 # ddmmyyyy
 EMAIL = "eakshitha2005@gmail.com"
@@ -54,3 +54,4 @@ def bfhl():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
